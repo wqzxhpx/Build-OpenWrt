@@ -16,7 +16,7 @@
 # Add a feed source
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 sed -i '$a src-git litte https://github.com/kenzok8/litte' feeds.conf.default
-sed -i '$a src-git jeii https://github.com/kenzok78/jeii' feeds.conf.default
+sed -i '$a src-git jell https://github.com/kenzok78/jell' feeds.conf.default
 git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
 git clone https://github.com/lisaac/luci-app-dockerman.git package/luci-app-dockerman
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
